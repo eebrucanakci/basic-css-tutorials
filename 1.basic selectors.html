@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+
+    <style>
+        /* Tüm h1 leri seç */
+        /* h1 {
+            color: aqua;
+            background-color: black;
+        }
+
+        p {
+            color: aquamarine;
+            background-color: brown;
+        } */
+
+
+        /* h1 ve p yi birlikte seçmenin yolu : */
+        /* h1,p {
+            color: aquamarine;
+            background-color: black;
+
+        } */
+
+
+        /* id ile filtreleyip seçmek istersek # kullanırız ;
+        #logo {
+            color: yellowgreen;
+            background-color: tomato;
+        } */
+
+
+        /* class bilgisi ile seçmek istiyorsak . kullanırız ;
+        .info{
+            color: wheat;
+            background-color: slateblue;
+        } */
+
+
+        /* hem id hem de class bilgisini kullanarak seçmek için: 
+
+        #logo, .lead{
+            color: seagreen;
+        } */
+
+
+        /* linklerin altındaki çizgiyi (line) silmek için:
+        a{
+            text-decoration: none;
+        } */
+
+
+        /* ul nin altındaki li nin altındaki a fonksiyonu için 
+        ul li a {
+            text-decoration: none;
+        } */
+
+        /* .info, span{
+            color: yellowgreen;
+        } */
+
+        /* her şeyi seçmek için olan evrensel işaret * yıldız işaretidir
+        * {
+            font-size: larger;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 Header1></h1>
+        <h1 id="logo">LOGO</h1>
+        </h1>
+
+        <ul>
+            <li>
+                <a href="#">SERVICES</a>
+            </li>
+        </ul>
+    </header>
+    <h1>
+        Header 2
+
+    </h1>
+    <p class="lead info">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur qui, odit possimus eos quis fuga provident
+        obcaecati iste earum deleniti quia voluptatem placeat cupiditate dolorem harum id natus libero dolor.
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary"></span> dolor sit, amet consectetur adipisicing elit. Possimus saepe dolor ut
+        consequuntur eum hic velit ipsa sunt itaque! Doloremque neque omnis provident adipisci. At cumque quas
+        reprehenderit dolore veniam!
+    </p>
+    <p class="info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, commodi obcaecati accusamus error esse soluta
+        excepturi officia fugit, inventore in est molestiae suscipit omnis placeat odit quo beatae tenetur quisquam?
+    </p>
+    <p>Test paragraf</p>
+    <a href="#">Home</a>
+</body>
+
+</html>
+<!-- ctrl + ö kısayolu ile yorum satırını hızlıca halledebilirsin -->

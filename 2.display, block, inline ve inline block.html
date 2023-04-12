@@ -1,0 +1,40 @@
+<!-- inline linkin üstüne tıkladığında linki açar ancak inline block belli bir blok içerisinde nereye tıklarsan tıkla seni o linke götürür -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Display</title>
+    <style>
+        /* display'i block olan :
+        .box{
+            width: 50%;
+            height: 100px;
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-2{
+            background-color: blue;
+            
+        } */
+        /* block ve inline block da width ve height ayarlanabilir inline da ayarlanamaz */
+        #test-link{
+
+            display: inline-block,;
+            width: 100px;
+            height: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <a
+    href="#" id="test-link">Test Link</a> 
+    deneme content
+    </a>
+    <div class="box box-1"></div>    
+    <div class="box box-2"></div>
+</body>
+</html>
