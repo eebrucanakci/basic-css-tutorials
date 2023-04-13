@@ -16,3 +16,11 @@ css öğrenirken aldığım notlar
 
 -C display,block,inline block ve inline aralarındaki fark nelerdir
 
+# 3.margin ile;
+-A margin ayarlarının sağdan,soldan,üstten ve alttan nasıl ayarlanacağını örneklerle göstermiştir
+
+# 4.padding ve box sizing ile;
+-A paddingi'in ne olduğunu örnek değerlerle göstermiştir
+
+-B box sizing içindeki border box özelliğinin neyi değiştirdiğini göstermiştir
+
