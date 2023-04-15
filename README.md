@@ -24,3 +24,10 @@ css öğrenirken aldığım notlar
 
 -B box sizing içindeki border box özelliğinin neyi değiştirdiğini göstermiştir
 
+# 5.pseudo class ile;
+-A a:hover, a:visited, a:active konuları işlenmiş
+
+# 5.1 ile;
+-A pseudo class örnekleri kullanılmıştır.
+
+
