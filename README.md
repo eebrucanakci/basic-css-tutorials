@@ -30,4 +30,10 @@ css öğrenirken aldığım notlar
 # 5.1 ile;
 -A pseudo class örnekleri kullanılmıştır.
 
+# 6.nth child selector ile;
+-A child-parent ilişkisi pekiştirildi.
+
+# 7.overflow;
+-A overflow özellikleri gösterilmiştir.
+
 
